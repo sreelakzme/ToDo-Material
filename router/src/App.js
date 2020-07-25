@@ -6,6 +6,8 @@ import Error from './Error';
 import Menu from './Menu';
 import Services from './Services';
 import User from "./User";
+import Search from './Search';
+import Sresult from './Sresult';
 
 
 const App = () => {
@@ -19,6 +21,7 @@ const App = () => {
     <Switch>
       <Route exact path='/' component={About} />
       <Route exact path='/contact' component={Contact} />
+      <Route path='/search' component={Search} />
       <Route path='/contact/name' component={Name} />
       <Route path='/services' component={Services} />
       <Route path="/user/:name" component={User}/>

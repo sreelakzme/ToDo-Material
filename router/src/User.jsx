@@ -11,7 +11,7 @@ const User = () => {
         <h1>Hello I am User {name} page.</h1>
         <p>My location is {location.pathname}</p>
         {location.pathname === `/user/sree/lakshmi` ? (
-        <button onClick={()=>history.goBack()}>Back</button>
+        <button onClick={()=>history.push('/')}>Home page</button>
         ):null}
         </>
     );
