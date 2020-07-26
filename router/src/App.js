@@ -25,7 +25,7 @@ const App = () => {
       <Route path='/contact/name' component={Name} />
       <Route path='/services' component={Services} />
       <Route path="/user/:name" component={User}/>
-      <Route component={Error} />
+      <Route component= {Error} />
     </Switch>
 
     </>
